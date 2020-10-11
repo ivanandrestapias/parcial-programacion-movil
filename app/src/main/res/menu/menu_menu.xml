@@ -1,0 +1,16 @@
+<?xml version="1.0" encoding="utf-8"?>
+<menu xmlns:android="http://schemas.android.com/apk/res/android">
+
+    <item android:title="Registrar nota"
+        android:icon="@drawable/ic_baseline_add_circle_24"
+        android:id="@+id/registrarnotas"/>
+    <item android:title="listar nota"
+        android:icon="@drawable/ic_baseline_format_list_numbered_24"
+        android:id="@+id/listarnotas"/>
+    <item android:title="Registrar materia"
+        android:id="@id/registrarmaterias"
+        android:icon="@drawable/ic_baseline_add_circle_outline_24"/>
+    <item android:title="listar materia"
+        android:icon="@drawable/ic_baseline_filter_list_24"
+        android:id="@id/listarmaterias"/>
+</menu>

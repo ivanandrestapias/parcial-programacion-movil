@@ -1,0 +1,28 @@
+<?xml version="1.0" encoding="utf-8"?>
+<navigation xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:app="http://schemas.android.com/apk/res-auto"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:id="@+id/paginas"
+    app:startDestination="@id/registrarnotas">
+
+    <fragment
+        android:id="@+id/registrarnotas"
+        android:name="com.example.parcial_001.Registrarnotas"
+        android:label="fragment_registrarnotas"
+        tools:layout="@layout/fragment_registrarnotas" />
+    <fragment
+        android:id="@+id/registrarmaterias"
+        android:name="com.example.parcial_001.Registrarmaterias"
+        android:label="fragment_registrarmaterias"
+        tools:layout="@layout/fragment_registrarmaterias" />
+    <fragment
+        android:id="@+id/listarnotas"
+        android:name="com.example.parcial_001.Listarnotas"
+        android:label="fragment_listarnotas"
+        tools:layout="@layout/fragment_listarnotas" />
+    <fragment
+        android:id="@+id/listarmaterias"
+        android:name="com.example.parcial_001.Listarmaterias"
+        android:label="fragment_listarmaterias"
+        tools:layout="@layout/fragment_listarmaterias" />
+</navigation>
